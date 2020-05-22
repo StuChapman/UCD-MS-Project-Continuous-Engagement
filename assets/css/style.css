@@ -2,7 +2,7 @@
 /*------------------- General Styling */
 
 div {
-    border: 1px solid red;
+    border: 1px solid plum;
 }
 
 /*------------------- Navbar Styling */
@@ -31,13 +31,7 @@ div {
 
 #brand {
     font-family: 'Cairo', sans-serif;
-    font-weight: 600;
-}
-
-#brandlarge {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    font-size: 32px;
+    font-size: calc(17px + (40 - 17) * ((100vw - 300px) / (1600 - 300)));
 }
 
 nav ul {
@@ -92,40 +86,42 @@ nav div a:hover {
 }
 
 /* credit to https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/ 
-    and https://www.madebymike.com.au/writing/fluid-type-calc-examples/ */
+    and https://www.madebymike.com.au/writing/fluid-type-calc-examples/ 
+        for font-size: calc(10px + (48 - 10) * ((100vw - 300px) / (1800 - 300)));*/
 
 .textsmall {
     padding: 2vw 8vw;
-    font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(10px + (48 - 10) * ((100vw - 300px) / (1366 - 300)));
     color: #000000;
 }
 
-.textmedium {
+.textmedium {   
     padding: 2vw 10vw;
-    font-size: calc(12px + (32 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(12px + (58 - 12) * ((100vw - 300px) / (1366 - 300)));
     color: #101828;
 }
 
 .textlarge {
     padding: 2vw 10vw;
-    font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (68 - 14) * ((100vw - 300px) / (1366 - 300)));
     font-weight: bold;
     color: #CC613A;
 }
 
+#bannerouter {
+    justify-content: center;
+}
+
 .banner {
-    margin-top: .25rem;
     padding: 0;
-    font-size: calc(17px + (32 - 17) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(17px + (48 - 17) * ((100vw - 300px) / (1366 - 300)));
     font-weight: bold;
     color: #ffffff;
-    min-height: 100px;
+    min-height: calc(80px + (200 - 80) * ((100vw - 300px) / (1366 - 300)));
     background-color: #CC613A;
 }
 
-/* credit to https://webdevblog.com/css-vertical-align/ */
-
-.align-vertically {
+.align-vertically { /* credit to https://webdevblog.com/css-vertical-align/ */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,54 +130,50 @@ nav div a:hover {
 img {
     max-height: 100px;
     max-width: 250px;
-    border: 1px solid blue;
+    border: 1px solid transparent;
 }
 
 /* ------------------- Media Screen responsiveness */
 
-@media screen and (max-width: 767px) { /*small*/
+@media screen and (max-width: 989px) { /*small*/
 
-    #brandsmall {
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 17px;
+    #brand {
+        font-family: 'Cairo', sans-serif;
+        font-size: 5vw;
     }
     
 }
 
-@media screen and (min-width: 768px) { /*medium*/
-
-    #brandsmall {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        font-size: 17px;
-    }
-}
-
-@media screen and (max-width: 1199px) { /*large*/
-
-    #brandmedium {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        font-size: 36px;
-    }
+@media (min-width: 1200px) {
+    .col-xl-4 {
+        max-width: 33.2%;
 }
 
 @media screen and (min-width: 1200px) { /*extra large*/
-
-    #brandmedium {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        font-size: 17px;
-    }
 
     #textsection .row {
         flex-wrap: nowrap;
     }
 
+
+    .textsmall {
+    padding: 2vw 18vw;
+        font-size: calc(14px + (24 - 14) * ((100vw - 1200px) / (1800 - 1200)));
+    }
+
+    .textmedium {   
+        padding: 0 10vw;
+        font-size: calc(18px + (36 - 18) * ((100vw - 1200px) / (1800 - 1200)));
+    }
+
+    .textlarge {
+        font-size: calc(30px + (48 - 30) * ((100vw - 1200px) / (1800 - 1200)));
+    }
+
     .banner {
-        margin-top: 0;
-        padding: 4vw;
+        font-size: 30px;
     }
 
 }
+
+
