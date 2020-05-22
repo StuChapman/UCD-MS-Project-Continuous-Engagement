@@ -2,7 +2,7 @@
 /*------------------- General Styling */
 
 div {
-    border: 1px solid plum;
+    border: 1px solid transparent;
 }
 
 /*------------------- Navbar Styling */
@@ -73,7 +73,6 @@ nav div a:hover {
 #textsection {
     text-align: center;
     font-family: 'Cairo', sans-serif;
-    min-height: 593px;
 }
 
 #textsection p {
@@ -113,6 +112,7 @@ nav div a:hover {
 }
 
 .banner {
+    margin-top: .25rem;
     padding: 0;
     font-size: calc(17px + (48 - 17) * ((100vw - 300px) / (1366 - 300)));
     font-weight: bold;
@@ -131,6 +131,13 @@ img {
     max-height: 100px;
     max-width: 250px;
     border: 1px solid transparent;
+}
+
+#footer {
+    min-height: calc(50px + (80 - 50) * ((100vw - 300px) / (1366 - 300)));
+    background-color: #101828;
+    font-size: calc(10px + (24 - 14) * ((100vw - 300px) / (1366 - 300)));
+    color: white;
 }
 
 /* ------------------- Media Screen responsiveness */
@@ -154,7 +161,6 @@ img {
     #textsection .row {
         flex-wrap: nowrap;
     }
-
 
     .textsmall {
     padding: 2vw 18vw;
