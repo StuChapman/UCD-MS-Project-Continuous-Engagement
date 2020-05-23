@@ -29,9 +29,8 @@ div {
     color: rgba(255,255,255,1);
 }
 
-#brand {
-    font-family: 'Cairo', sans-serif;
-    font-size: calc(17px + (40 - 17) * ((100vw - 300px) / (1600 - 300)));
+#brandimage {
+    height: 50px;
 }
 
 nav ul {
@@ -52,15 +51,24 @@ nav ul a:hover {
     text-decoration: none;
 }
 
+nav li .active {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+
 nav .row {
     margin-right: 0;
     margin-left: 0;
 }
 
-#emailicon {
+#menubar {
+    width: 75vw;
+}
+
+.menuicon {
     font-size: xx-large;
     padding-left: 3rem;
-    color: rgba(255,255,255,1)
+    color: rgba(255,255,255,.5)
 }
 
 nav div a:hover {
@@ -148,15 +156,6 @@ img {
 }
 
 /* ------------------- Media Screen responsiveness */
-
-@media screen and (max-width: 989px) { /*small*/
-
-    #brand {
-        font-family: 'Cairo', sans-serif;
-        font-size: 5vw;
-    }
-    
-}
 
 @media (min-width: 1200px) {
     .col-xl-4 {
