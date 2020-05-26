@@ -211,6 +211,12 @@ nav div a:hover {
     padding: 1.25rem 2rem;
 }
 
+/* ------------------- Content Section Styling */
+
+    #contentsection {
+        font-family: 'Cairo', sans-serif;
+}
+
 .content {
     padding: 2vw;
 }
@@ -239,6 +245,68 @@ nav div a:hover {
 .contentimage {
     max-height: 30vw;
     max-width: 50vw;
+}
+
+.align-left {
+    text-align: left;
+    padding: 3vw 4vw 0vw;
+}
+
+.contentbold {
+    font-weight: bold;
+}
+
+.contenthighlight {
+    font-weight: bold;
+    color: #CC613A;
+}
+
+/* ------------------- Contact Section Styling */
+
+#contactsection {
+    background: url(/assets/images/grayscale-photo-of-building-3312304.jpg) no-repeat center; 
+        /* credit to https://www.pexels.com/photo/grayscale-photo-of-building-3312304//*/
+    background-size: cover;
+    min-height: 66vh;
+}
+
+#contactsectionmask {
+    background-color: rgba(255, 255, 255, .85);
+    min-height: 66vh;
+}
+
+#contactouter {
+    justify-content: center;
+    text-align: center;
+    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / (1366 - 300)));
+    font-family: 'Cairo', sans-serif;
+}
+
+#contactimage {
+    width: 60vw;
+    margin: 15vh 20vw 15vh 20vw;
+}
+
+.contacttext {
+    margin-bottom: 10vw;
+    text-align: center;
+    color: #101828;
+}
+
+.contactbanner {
+    padding: 0 4vw 0 4vw;
+    min-height: calc(80px + (200 - 80) * ((100vw - 300px) / (1366 - 300)));
+    background-color: #CC613A;
+}
+
+.contactbanner a, .contactbanner p {
+    font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1366 - 300)));
+    color: white;
+    text-decoration: none; 
+}
+
+.col-xl-6 {
+    padding: 0;
 }
 
 /* ------------------- Footer Styling */
@@ -290,7 +358,7 @@ nav div a:hover {
 
     .textxsmall {
         padding: 2vw 8vw;
-        font-size: calc(10px + (18 - 10) * ((100vw - 300px) / (1366 - 300)));
+        font-size: calc(10px + (18 - 10) * ((100vw - 300px) / (1800 - 1200)));
         color: #000000;
     }
 
@@ -348,21 +416,21 @@ nav div a:hover {
 
     .contenttextsmall {
         padding: 2vw 8vw 4vw;
-        font-size: calc(26px + (32 - 26) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(18px + (26 - 18) * ((100vw - 1200px) / (1800 - 300)));
         color: #101828;
         text-align: center;
     }
 
     .contenttextxsmall {
         padding: 4vw 8vw 2vw;
-        font-size: calc(28px + (36 - 28) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(22px + (30 - 22) * ((100vw - 1200px) / (1800 - 300)));
         color: #000000;
     }
 
     .contenttextlarge {
         padding: 4vw 6vw 2vw;
         text-align: center;
-        font-size: calc(34px + (42 - 34) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(28px + (38 - 28) * ((100vw - 1200px) / (1800 - 300)));
         font-weight: bold;
         color: #CC613A;
     }
@@ -370,6 +438,30 @@ nav div a:hover {
     .contentimage {
         max-height: 30vw;
         max-width: 30vw;
+    }
+
+    .align-left {
+        text-align: left;
+        padding: 0;
+    }
+
+    #contactouter {
+        padding: 15vh 20vw 15vh 20vw;
+    }
+
+    #contactimage {
+        width: 30vw;
+        margin: 0;
+        padding-right: 2vw;
+    }
+
+    .contactbanner {
+        min-height: 32.3%;
+    }
+
+    .contactbanner a, .contactbanner p {
+        font-size: calc(16px + (26 - 16) * ((100vw - 1200px) / (1800 - 300)));
+        color: white;
     }
 
 }
