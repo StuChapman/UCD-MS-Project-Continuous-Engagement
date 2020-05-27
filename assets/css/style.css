@@ -86,7 +86,7 @@ nav div a:hover {
 /* ------------------- Text Section Styling */
 
 #textsection {
-    background: url(/assets/images/grayscale-photo-of-building-3312304.jpg) no-repeat center; 
+    background: url('/assets/images/grayscale-photo-of-building-3312304.jpg') no-repeat center; 
         /* credit to https://www.pexels.com/photo/grayscale-photo-of-building-3312304//*/
     background-size: cover;
     text-align: center;
@@ -212,8 +212,9 @@ nav div a:hover {
 
 /* ------------------- Content Section Styling */
 
-    #contentsection {
-        font-family: 'Cairo', sans-serif;
+#contentsection {
+    font-family: 'Cairo', sans-serif;
+    background-color: rgba(255, 255, 255, .75);
 }
 
 .content {
@@ -238,7 +239,7 @@ nav div a:hover {
     text-align: center;
     font-size: calc(16px + (68 - 16) * ((100vw - 300px) / (1366 - 300)));
     font-weight: bold;
-    color: #CC613A;
+    color: #101828;
 }
 
 .contentimage {
@@ -287,8 +288,11 @@ nav div a:hover {
 }
 
 .contacttext {
-    margin: 0 20vw 15vh 20vw;
+    margin: 0 10vw 15vh 10vw;
+    padding-top: 1vw;
     text-align: center;
+    font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1366 - 300)));
+    font-family: 'Cairo', sans-serif;
     color: #101828;
 }
 
@@ -310,6 +314,10 @@ nav div a:hover {
 
 .col-xl-6 {
     padding: 0;
+}
+
+#contentsection .col-xl-6 {
+    padding: 2vw 4vw 6vw 4vw;
 }
 
 /* ------------------- Footer Styling */
@@ -355,7 +363,7 @@ nav div a:hover {
     }
 
     #textsection .row {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .textsmall {
@@ -421,23 +429,34 @@ nav div a:hover {
         color: rgba(255,255,255,.5)
     }
 
+    #contentsection .col-xl-6 {
+        padding: 2vw 4vw 2vw 4vw;
+    }
+
     .contenttextsmall {
-        padding: 2vw 8vw 4vw;
-        font-size: calc(16px + (22 - 16) * ((100vw - 1200px) / (1800 - 300)));
+        padding: 1vw 8vw 4vw;
+        font-size: calc(16px + (22 - 16) * ((100vw - 1200px) / (1800 - 1200)));
+        color: #101828;
+        text-align: center;
+    }
+
+    .contenttextsmall h1 {
+        padding: 0;
+        font-size: calc(14px + (20 - 14) * ((100vw - 1200px) / (1800 - 1200)));
         color: #101828;
         text-align: center;
     }
 
     .contenttextxsmall {
         padding: 4vw 8vw 2vw;
-        font-size: calc(20px + (26 - 20) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(20px + (26 - 20) * ((100vw - 1200px) / (1800 - 1200)));
         color: #000000;
     }
 
     .contenttextlarge {
         padding: 4vw 6vw 2vw;
         text-align: center;
-        font-size: calc(24px + (32 - 24) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(24px + (32 - 24) * ((100vw - 1200px) / (1800 - 1200)));
         font-weight: bold;
         color: #CC613A;
     }
