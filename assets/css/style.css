@@ -178,7 +178,6 @@ nav div a:hover {
 
 /* ------------------- Accordian Styling */
 
-
 .accordion {
     font-family: 'Cairo', sans-serif;
 }
@@ -284,11 +283,11 @@ nav div a:hover {
 
 #contactimage {
     width: 60vw;
-    margin: 15vh 20vw 15vh 20vw;
+    margin: 15vh 20vw 0 20vw;
 }
 
 .contacttext {
-    margin-bottom: 10vw;
+    margin: 0 20vw 15vh 20vw;
     text-align: center;
     color: #101828;
 }
@@ -303,6 +302,10 @@ nav div a:hover {
     font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (1366 - 300)));
     color: white;
     text-decoration: none; 
+}
+
+.contactbanner i {
+    font-size: 28px;
 }
 
 .col-xl-6 {
@@ -347,6 +350,10 @@ nav div a:hover {
         background-color: red;
     }
 
+    #textsection, #textsectionmask {
+        min-height: 66vh;
+    }
+
     #textsection .row {
         flex-wrap: nowrap;
     }
@@ -373,7 +380,7 @@ nav div a:hover {
     }
 
     .textlarge {
-        padding: 4vw 8vw 2vw;
+        padding: 15vh 8vw 5vw;
         font-size: calc(30px + (48 - 30) * ((100vw - 1200px) / (1800 - 1200)));
     }
 
@@ -416,21 +423,21 @@ nav div a:hover {
 
     .contenttextsmall {
         padding: 2vw 8vw 4vw;
-        font-size: calc(18px + (26 - 18) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(16px + (22 - 16) * ((100vw - 1200px) / (1800 - 300)));
         color: #101828;
         text-align: center;
     }
 
     .contenttextxsmall {
         padding: 4vw 8vw 2vw;
-        font-size: calc(22px + (30 - 22) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(20px + (26 - 20) * ((100vw - 1200px) / (1800 - 300)));
         color: #000000;
     }
 
     .contenttextlarge {
         padding: 4vw 6vw 2vw;
         text-align: center;
-        font-size: calc(28px + (38 - 28) * ((100vw - 1200px) / (1800 - 300)));
+        font-size: calc(24px + (32 - 24) * ((100vw - 1200px) / (1800 - 300)));
         font-weight: bold;
         color: #CC613A;
     }
@@ -459,12 +466,13 @@ nav div a:hover {
         min-height: 32.3%;
     }
 
-    .contactbanner a, .contactbanner p {
-        font-size: calc(16px + (26 - 16) * ((100vw - 1200px) / (1800 - 300)));
+    .contactbanner a, .contactbanner p, .contactbanner i {
+        font-size: calc(14px + (28 - 14) * ((100vw - 1200px) / (1800 - 300)));
         color: white;
     }
 
 }
+
 
 
 
