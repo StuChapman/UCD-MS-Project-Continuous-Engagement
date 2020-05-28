@@ -91,7 +91,7 @@ nav div a:hover {
     background-color: #999999;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     text-align: center;
     font-family: 'Cairo', sans-serif;
     min-height: 50vh;
@@ -217,6 +217,38 @@ nav div a:hover {
     font-size: calc(10px + (48 - 10) * ((100vw - 300px) / 1066));
     padding: 1.25rem 2rem;
 }
+
+/* ------------------- Carousel Styling */
+
+.carousel {
+    font-family: 'Cairo', sans-serif;
+}
+
+.carouselbannerheader {
+    text-align: center;
+    font-size: calc(16px + (32 - 16) * ((100vw - 300px) / 1066));
+    color: #ffffff;
+    min-height: 10vh;
+    background-color: #CC613A;
+}
+
+.carouselbanner {
+    padding: 0 12.5vw 0;
+    text-align: center;
+    font-size: calc(12px + (24 - 12) * ((100vw - 300px) / 1066));
+    color: #101828;
+    min-height: 20vh;
+    background-color: transparent;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CC613A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CC613A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
 
 /* ------------------- Content Section Styling */
 

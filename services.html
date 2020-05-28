@@ -47,7 +47,7 @@
             <a class="d-inline d-lg-none" href="methods.html"><i class="fas fa-tools menuicon"></i></a>
             <a class="d-inline d-lg-none" href="case-studies.html"><i class="fas fa-award menuicon"></i></a>
             <a class="d-inline d-lg-none" href="contact.html"><i class="far fa-address-card mailicon"></i></a>
-        </div> <!--mailto:continuousengagement@outlook.com-->
+        </div> 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item"><a class="nav-link" href="index.html">
@@ -70,8 +70,8 @@
     </nav>
 
     <!--Text Section-->
-    <section id="textsection">
-        <div id="textsectionmask">
+    <section id="textsection" style="min-height: 55vh"> <!--this overrule is for services.html only-->
+        <div id="textsectionmask" style="min-height: 55vh"> <!--this overrule is for services.html only-->
             <div>
                 <div class="textlarge">
                     <h1>A suite of services from training through to delivery...</h1>
@@ -79,108 +79,132 @@
                 <div class="textxmedium">
                     <p>Results driven, tailored to your business, targetting regognised business pain points and moments-of-truth.</p>
                 </div>
-                <div class="textxsmall">
+                <div class="textxsmall d-lg-none">
                     <p>Tap the headings below to find out more...</p>
                 </div>
             </div>
         </div>
     </section>
 
-            <!-- Bootstrap Accordion -->
-            <div class="accordion row" id="accordionExample">
-                <div class="d-none d-xl-block">
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Training packages are tailored for your business and are designed for all levels, from Exec to 
-                                Operational Teams. They can cover 1 or 2 days and on request Lean Competancy System accreditation 
-                                    can be provided on successful completion.
-                        </div>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Coaching, like Training, is tailored for your business and designed for Exec through to 
-                                Operational Teams. Coaching happens 'in the work' and pre-prepared 1-2-1s, and is based around 
-                                a structured Maturity Model.
-                        </div>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Deployment into an Operational or Leadership team includes elements of: Training, Coaching and Delivery.
-                                This means working as part of the team: role-modeling Continuous Improvement and taking the team 
-                                    on a journey to self-sufficiency.
-                        </div>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                        <div class="card-body">
-                            Resourcing Continuous Improvement roles on an interim basis to either: fill a gap due to temporary absence or creating capability and 
-                                momentum in the early days of a newly established initiative or culture change.
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-xl-3">
-                    <div class="card-header mt-0 banner align-vertically" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                TRAINING
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseOne" class="collapse d-xl-none" aria-labelledby="headingOne" data-parent="#accordionExample">
-                        <div class="card-body contenttextsmall">
-                            Training packages are tailored for your business and are designed for all levels, from Exec to 
-                                Operational Teams. They can cover 1 or 2 days and on request Lean Competancy System accreditation 
-                                    can be provided on successful completion.
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-xl-3">
-                    <div class="card-header mt-1 mt-xl-0 banner headingCenterLeft align-vertically" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                COACHING
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse d-xl-none" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body contenttextsmall">
-                            Coaching, like Training, is tailored for your business and designed for Exec through to 
-                                Operational Teams. Coaching happens 'in the work' and pre-prepared 1-2-1s, and is based around 
-                                a structured Maturity Model.
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-xl-3">
-                    <div class="card-header mt-1 mt-xl-0 banner headingCenterRight align-vertically" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                DEPLOYMENT
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse d-xl-none" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body contenttextsmall">
-                            Deployment into an Operational or Leadership team includes elements of: Training, Coaching and Delivery.
-                                This means working as part of the team: role-modeling Continuous Improvement and taking the team 
-                                    on a journey to self-sufficiency.
-                        </div>
-                    </div>
-                </div>
-                <div class="card col-xl-3">
-                    <div class="card-header mt-1 mt-xl-0 banner align-vertically" id="headingFour">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                RESOURCING
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseFour" class="collapse d-xl-none" aria-labelledby="headingFour" data-parent="#accordionExample">
-                        <div class="card-body contenttextsmall">
-                            Resourcing Continuous Improvement roles on an interim basis to either: fill a gap due to temporary absence or creating capability and 
-                                momentum in the early days of a newly established initiative or culture change.
-                        </div>
-                    </div>
+    <!-- Bootstrap Accordion -->
+    <div class="accordion d-xl-none row" id="accordionExample">
+        <div class="card col-xl-3">
+            <div class="card-header mt-0 banner align-vertically" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        TRAINING
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse d-xl-none" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body contenttextsmall">
+                    Training packages are tailored for your business and are designed for all levels, from Exec to 
+                        Operational Teams. They can cover 1 or 2 days and on request Lean Competancy System accreditation 
+                            can be provided on successful completion.
                 </div>
             </div>
+        </div>
+        <div class="card col-xl-3">
+            <div class="card-header mt-1 mt-xl-0 banner headingCenterLeft align-vertically" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        COACHING
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse d-xl-none" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body contenttextsmall">
+                    Coaching, like Training, is tailored for your business and designed for Exec through to 
+                        Operational Teams. Coaching happens 'in the work' and pre-prepared 1-2-1s, and is based around 
+                        a structured Maturity Model.
+                </div>
+            </div>
+        </div>
+        <div class="card col-xl-3">
+            <div class="card-header mt-1 mt-xl-0 banner headingCenterRight align-vertically" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        DEPLOYMENT
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse d-xl-none" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body contenttextsmall">
+                    Deployment into an Operational or Leadership team includes elements of: Training, Coaching and Delivery.
+                        This means working as part of the team: role-modeling Continuous Improvement and taking the team 
+                            on a journey to self-sufficiency.
+                </div>
+            </div>
+        </div>
+        <div class="card col-xl-3">
+            <div class="card-header mt-1 mt-xl-0 banner align-vertically" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        RESOURCING
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse d-xl-none" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body contenttextsmall">
+                    Resourcing Continuous Improvement roles on an interim basis to either: fill a gap due to temporary absence or creating capability and 
+                        momentum in the early days of a newly established initiative or culture change.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap Carousel -->
+    <div id="carouselExampleControls" class="carousel slide d-none d-xl-block" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carouselbannerheader align-vertically">
+                    TRAINING
+                </div>
+                <div class="carouselbanner align-vertically">
+                    Training packages are tailored for your business and are designed for all levels, from Exec to 
+                        Operational Teams. They can cover 1 or 2 days and on request Lean Competancy System accreditation 
+                            can be provided on successful completion.
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carouselbannerheader align-vertically">
+                    COACHING
+                </div>
+                <div class="carouselbanner align-vertically">
+                    Coaching, like Training, is tailored for your business and designed for Exec through to 
+                        Operational Teams. Coaching happens 'in the work' and pre-prepared 1-2-1s, and is based around 
+                            a structured Maturity Model.
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carouselbannerheader align-vertically">
+                    DEPLOYMENT
+                </div>
+                <div class="carouselbanner align-vertically">
+                    Deployment into an Operational or Leadership team includes elements of: Training, Coaching and Delivery.
+                        This means working as part of the team: role-modeling Continuous Improvement and taking the team 
+                            on a journey to self-sufficiency.
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carouselbannerheader align-vertically">
+                    RESOURCING
+                </div>
+                <div class="carouselbanner align-vertically">
+                    Resourcing Continuous Improvement roles on an interim basis to either: fill a gap due to temporary absence or creating capability and 
+                        momentum in the early days of a newly established initiative or culture change.
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
     <footer>
         <div id="footer">
