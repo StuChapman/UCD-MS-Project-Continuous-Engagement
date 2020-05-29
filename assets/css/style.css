@@ -263,21 +263,21 @@ nav div a:hover {
 
 .contenttextsmall {
     padding: 6vw 8vw;
-    font-size: calc(14px + (48 - 14) * ((100vw - 300px) / 1066));
+    font-size: calc(14px + (28 - 14) * ((100vw - 300px) / 1066));
     color: #101828;
     text-align: center;
 }
 
 .contenttextxsmall {
     padding: 4vw 8vw 2vw;
-    font-size: calc(14px + (36 - 14) * ((100vw - 300px) / 1066));
+    font-size: calc(14px + (28 - 14) * ((100vw - 300px) / 1066));
     color: #000000;
 }
 
 .contenttextlarge {
     padding: 4vw 6vw;
     text-align: center;
-    font-size: calc(16px + (68 - 16) * ((100vw - 300px) / 1066));
+    font-size: calc(18px + (36 - 18) * ((100vw - 300px) / 1066));
     font-weight: bold;
     color: #101828;
 }
