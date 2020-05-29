@@ -357,6 +357,36 @@ nav div a:hover {
     padding: 2vw 4vw 6vw 4vw;
 }
 
+
+/* ------------------- Photolink Section Styling */
+
+#photolinksection {
+    font-family: 'Cairo', sans-serif;
+    background-color: #D9D9D9;
+    padding: 2.5vw;
+}
+
+#photolinkouter{
+    background-color: #F0F0F0;
+    padding: 0 2.5vw;
+}
+
+.photolinkimage {
+    padding-bottom: 2.5vw;
+    width: 42.5vw;
+}
+
+.photolinktextsmall, photolinktextsmall h1 {
+    font-size: calc(12px + (24 - 12) * ((100vw - 300px) / 900));
+    color: #CC613A  ;
+    text-align: center;
+    font-weight: bold;
+}
+
+#photolinksection .col-6, #photolinksection .col-xl-3 {
+    padding: 0;
+}
+
 /* ------------------- Footer Styling */
 
 #footer {
@@ -525,6 +555,19 @@ nav div a:hover {
     .contactbanner a, .contactbanner p, .contactbanner i {
         font-size: calc(14px + (28 - 14) * ((100vw - 1200px) / 600));
         color: white;
+    }
+
+    .photolinkimage {
+        padding-bottom: 2.5vw;
+        width: 21vw;
+    }
+
+    #photolinkouter .pl-xl-2 {
+        padding-left: .5vw!important;
+    }
+
+    #photolinkouter .pl-xl-3 {
+        padding-left: .8vw!important;
     }
 
 }
