@@ -301,6 +301,11 @@ nav div a:hover {
     color: #CC613A;
 }
 
+.carouselimage {
+    height: 15vw;
+    padding-top: .5vw;
+}
+
 /* ------------------- Contact Section Styling */
 
 #contactsection {
@@ -536,6 +541,12 @@ nav div a:hover {
     .align-left {
         text-align: left;
         padding: 0;
+    }
+
+    .carouselimage {
+        height: 15vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
     }
 
     #contactouter {
