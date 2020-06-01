@@ -163,68 +163,130 @@
     </div>
 
     <!-- Bootstrap Modal -->
-    <div class="row">
-        <!-- Button trigger modal -->
-        <div class="card col-4">
-            <button type="button" class="btn btn-primary card-header mt-0 banner align-vertically" data-toggle="modal" data-target="#exampleModal">
-                LEAN
-            </button>
-        </div>
-        <!-- Button trigger modal -->
-        <div class="card col-4">
-            <button type="button" class="btn btn-primary card-header headingCenter mt-0 banner align-vertically" data-toggle="modal" data-target="#exampleModal">
-                SIX SIGMA
-            </button>
-        </div>
-        <!-- Button trigger modal -->
-        <div class="card col-4">
-            <button type="button" class="btn btn-primary card-header mt-0 banner align-vertically" data-toggle="modal" data-target="#exampleModal">
-                OPERATIONAL EXCELLENCE
-            </button>
+    <div class="d-none d-xl-inline">
+        <div class="row">
+            <!-- Button trigger modal -->
+            <div class="card col-4">
+                <button type="button" class="btn btn-primary card-header mt-0 banner align-vertically" data-toggle="modal" data-target="#exampleModalLean">
+                    LEAN
+                </button>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="card col-4">
+                <button type="button" class="btn btn-primary card-header mheadingCenter mt-0 banner align-vertically" data-toggle="modal" data-target="#exampleModalSigma">
+                    SIX SIGMA
+                </button>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="card col-4">
+                <button type="button" class="btn btn-primary card-header mt-0 banner align-vertically" data-toggle="modal" data-target="#exampleModalOpex">
+                    OPERATIONAL<br>EXCELLENCE
+                </button>
+            </div>
         </div>
     </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal Lean -->
+        <div class="modal fade" id="exampleModalLean" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelLean" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title contenttextlarge content" id="exampleModalLabelLean">
+                            LEAN follows 5 principles: Value, Value Stream, Flow, Pull & Perfect(ion).</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div class="row">
+                            <div class="col-7 contenttextxsmall content align-vertically">
+                                LEAN is often focussed on Efficiency - how much effort it takes to complete a task, 
+                                    product, project etc.<br>And how much of that effort is useful (Value) versus 
+                                        how much is unnecessary (Waste).
+                            </div>
+                            <div class="col-5 mt-auto mb-auto">
+                                <img class="d-inline contentimage pr-4" src="assets/images/lean-white.jpg" alt="lean principles" >
+                            </div>
+                        </div>
+                        <div class="contenttextxsmall content">
+                            Various tools, such as: Value Stream Mapping, The 8 Wastes, Visual Management etc. 
+                            help to identify and eliminate Waste.
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <!-- Modal Sigma -->
+        <div class="modal fade" id="exampleModalSigma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelSigma" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title contenttextlarge content" id="exampleModalLabelSigma">
+                            6 SIGMA is a framework for reducing the amount of variation in a process.</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-7 contenttextxsmall content align-vertically">
+                                6 SIGMA can be focussed on how Accurate and Predictable a task, product or process is, 
+                                    and could be.
+                            </div>
+                            <div class="col-5 mt-auto mb-auto">
+                                <img class="d-inline contentimage pr-4" src="assets/images/dmaic-white.jpg" alt="six sigma" >
+                            </div>
+                        </div>
+                        <div class="contenttextxsmall content">
+                            The framework DMAIC (Define, Measure, Analyse, Improve, Control) gives a structure to 
+                                understanding the causes of variation. Tools such as: Run Charts, Capability 
+                                    Charts and Statistical Process Control are used.
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal Opex -->
+        <div class="modal fade" id="exampleModalOpex" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelOpex" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title contenttextlarge content" id="exampleModalLabelOpex">
+                            OPEX is a structured approach; working through: the Purpose, Measures 
+                                and Methods of an: Organisation, Function or Process..</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        ...
+                    <div class="modal-body">    
+                        <div class="row">
+                            <div class="col-7 contenttextxsmall content align-vertically">
+                                OPEX takes a group of people though a layered set of tools that provide visibility and 
+                        capability across the 3 lenses of: Purpose, Measures & Methods. It is a 'hands-on' 
+                            approach that requires participation across all levels in the business.
+                            </div>
+                            <div class="col-5 mt-auto mb-auto">
+                                <img class="d-inline contentimage pr-4" src="assets/images/pdca-white.jpg" alt="plan do check act" >
+                            </div>
+                        </div>
+                        <div class="contenttextxsmall content">
+                            You would expect to see: Team Huddles, Huddle-Boards, KPIs and A3 Problem-Solving templates.
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
 
     <footer>
         <div id="footer" class="align-vertically">

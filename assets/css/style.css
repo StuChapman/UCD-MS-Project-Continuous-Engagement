@@ -257,6 +257,16 @@ nav div a:hover {
     box-shadow: none;
 }
 
+.mheadingCenter {
+    max-width: 98%;
+    margin-left: 1%;
+}
+
+.modal-content {
+    width: 75vw;
+    left: -20vw;
+}
+
 /* ------------------- Content Section Styling */
 
 #contentsection {
