@@ -113,7 +113,7 @@ nav div a:hover {
 }
 
 .textxsmall {
-    padding: 6vw 8vw 2vw;
+    padding: 10vw 8vw 2vw;
     font-size: calc(10px + (28 - 10) * ((100vw - 300px) / 900));
     color: #000000;
 }
@@ -234,6 +234,28 @@ nav div a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CC613A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+/* ------------------- Modal Styling */
+
+.btn-primary {
+    border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:hover, .btn-primary:focus {
+    color: rgba(255, 255, 255, .85);
+    background-color: #CC613A;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    outline: 0;
+    border: none;
+    box-shadow: none;
+}
 
 /* ------------------- Content Section Styling */
 
@@ -347,7 +369,6 @@ nav div a:hover {
     padding: 2vw 4vw 6vw 4vw;
 }
 
-
 /* ------------------- Photolink Section Styling */
 
 #photolinksection {
@@ -401,7 +422,9 @@ nav div a:hover {
 }
 
 @media screen and (min-width: 1200px) { /*large landscape*/
-    
+
+    /* ------------------- General Styling */
+
     .col-xl-4 {
         max-width: 33.3%;
     }
@@ -410,10 +433,14 @@ nav div a:hover {
         max-width: 25%;
     }
 
+    /* ------------------- Accordian Styling */
+
     .accordionouter {
         min-height: 97px;
         background-color: red;
     }
+
+    /* ------------------- Text Section Styling */
 
     #textsection, #textsectionmask {
         min-height: 66vh;
@@ -448,6 +475,8 @@ nav div a:hover {
         padding: 5vh 8vw 3vh;
         font-size: calc(21px + (42 - 21) * ((100vw - 300px) / 900));
     }
+
+    /* ------------------- Banner Section Styling */
 
     .banner {
         font-size: 30px;
@@ -485,6 +514,8 @@ nav div a:hover {
     .btn-link:focus {
         color: rgba(255,255,255,.5)
     }
+
+/* ------------------- Content Section Styling */
 
     #contentsection .col-xl-6 {
         padding: 2vw 4vw 2vw 4vw;
@@ -527,12 +558,16 @@ nav div a:hover {
         text-align: left;
         padding: 0;
     }
+    
+    /* ------------------- Carousel Styling */
 
     .carouselimage {
         height: 15vw;
         padding-top: 2vw;
         padding-bottom: 2vw;
     }
+
+    /* ------------------- Contact Section Styling */
 
     #contactouter {
         padding: 15vh 20vw 15vh 20vw;
@@ -553,6 +588,8 @@ nav div a:hover {
         color: white;
     }
 
+    /* ------------------- Photolink Section Styling */
+
     .photolinkimage {
         padding-bottom: 2.5vw;
         width: 21vw;
@@ -567,6 +604,7 @@ nav div a:hover {
     }
 
 }
+
 
 
 
