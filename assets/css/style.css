@@ -1,24 +1,16 @@
 
-/*------------------- General Styling 
-
-div {
-    border: 1px solid red;
-}*/
-
 /*------------------- Navbar Styling */
 
 .navbar {
-    justify-content: left;
     padding: .75rem .75rem;
     background-color: #657486;
-    color: white;
     font-family: 'Cairo', sans-serif;
 }
 
 .navbar-toggler {
     padding: .25rem .25rem;
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .navbar-dark .navbar-toggler {
@@ -35,6 +27,7 @@ div {
 }
 
 nav ul {
+    padding-left: 10vw;
     list-style-type:none;
     font-weight: 400;
     font-size: 18px;
@@ -51,6 +44,10 @@ nav ul a:hover {
     text-decoration: none;
 }
 
+nav .col {
+    padding: 0;
+}
+
 nav li .active {
     color: rgba(255,255,255,.5);
     text-decoration: none;
@@ -64,18 +61,6 @@ nav .row {
 #menubar {
     width: 75vw;
     text-align: right;
-}
-
-.menuicon {
-    font-size: calc(15px + (35 - 15) * ((100vw - 300px) / 900));
-    padding-left: 2.5rem;
-    color: rgba(255,255,255,.5)
-}
-
-.mailicon {
-    font-size: calc(15px + (35 - 15) * ((100vw - 300px) / 900));
-    padding-left: 2.5rem;
-    color: rgba(255,255,255,.5)
 }
 
 nav div a:hover {
@@ -339,7 +324,7 @@ nav div a:hover {
 }
 
 .contactbanner {
-    padding: 0 4vw 0 4vw;
+    padding: 0 2vw 0 2vw;
     min-height: calc(80px + (200 - 80) * ((100vw - 300px) / 1066));
     background-color: #CC613A;
 }

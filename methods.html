@@ -16,24 +16,19 @@
 </head>
 <body>
     <!--Bootstrap navbar-->
-    <nav class="navbar navbar-dark">
-        <div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="ml-4">
+    <nav class="navbar sticky-top">
+        <div class="mr-auto">
             <a href="index.html">
                 <img id="brandimage" src="assets/images/brand.jpg" alt="continuous engagement brand image" >
             </a>
         </div>
         <div class="d-none d-lg-inline ml-auto" id="menubar">
-            <ul class="row">
-                <li class="col"><a href="index.html">
+            <ul class="row pl-auto">
+                <li class="col"><a class="active" href="index.html">
                     <span>home</span></a></li>
                 <li class="col"><a href="services.html">
                     <span>services</span></a></li>
-                <li class="col"><a class="active" href="methods.html">
+                <li class="col"><a href="methods.html">
                     <span>methods</span></a></li>
                 <li class="col"><a href="case-studies.html">
                     <span>case studies</span></a></li>
@@ -41,22 +36,20 @@
                     <span>contact us</span></a></li>
             </ul>
         </div>
-        <div class="ml-auto">
-            <a class="d-inline d-lg-none" href="index.html"><i class="fas fa-home menuicon"></i></a>
-            <a class="d-inline d-lg-none" href="services.html"><i class="fas fa-tasks menuicon"></i></a>
-            <a class="d-inline d-lg-none" href="methods.html"><i class="fas fa-tools menuicon"></i></a>
-            <a class="d-inline d-lg-none" href="case-studies.html"><i class="fas fa-award menuicon"></i></a>
-            <a class="d-inline d-lg-none" href="contact.html"><i class="far fa-address-card mailicon"></i></a>
-        </div> 
+        <div class="navbar-dark ml-auto">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item"><a class="nav-link" href="index.html">
+                <li class="nav-item"><a class="nav-link active" href="index.html">
                     <span>home</span></a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="services.html">
                     <span>services</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link active" href="methods.html">
+                <li class="nav-item"><a class="nav-link" href="methods.html">
                     <span>methods</span></a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="case-studies.html">
@@ -229,9 +222,9 @@
     </div>
 
     <footer>
-        <div id="footer">
-            <span class="ml-1 float-left">Company Number: 11942205</span>
-            <span class="mr-1 float-right">VAT Number: 321292435</span>
+        <div id="footer" class="align-vertically">
+            <span class="pl-4 mr-auto">Company Number: 11942205</span>
+            <span class="pr-4 ml-auto">VAT Number: 321292435</span>
         </div>
     </footer>
 
