@@ -70,8 +70,8 @@ nav div a:hover {
 
 /* ------------------- Text Section Styling */
 
-#textsection, #contactsection 
-    {background-image: url(/assets/images/grayscale-photo-of-building-3312304.jpg?raw=true);
+#textsection, #contactsection {
+    background-image: url(https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/master/assets/images/grayscale-photo-of-building-3312304.jpg?raw=true);
         /* credit to https://www.pexels.com/photo/grayscale-photo-of-building-3312304//*/
     background-color: #999999;
     background-position: center;
@@ -296,7 +296,7 @@ nav div a:hover {
     text-align: center;
     font-size: calc(18px + (36 - 18) * ((100vw - 300px) / 1066));
     font-weight: bold;
-    color: #101828;
+    color: #CC613A;
 }
 
 .contentimage {
@@ -326,7 +326,14 @@ nav div a:hover {
 /* ------------------- Contact Section Styling */
 
 #contactsection {
-    min-height: 66vh;
+    height: 55vh;
+}
+
+#contactsectionsmall {
+    justify-content: center;
+    text-align: center;
+    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / 1066));
+    font-family: 'Cairo', sans-serif;
 }
 
 #contactsectionmask {
@@ -431,7 +438,7 @@ nav div a:hover {
     }
 }
 
-@media screen and (min-width: 1200px) { /*large landscape*/
+@media screen and (min-width: 1200px) { /*large*/
 
     /* ------------------- General Styling */
 
@@ -578,6 +585,10 @@ nav div a:hover {
     }
 
     /* ------------------- Contact Section Styling */
+
+    #contactsection {
+        height: 66vh;
+    }
 
     #contactouter {
         padding: 15vh 20vw 15vh 20vw;
