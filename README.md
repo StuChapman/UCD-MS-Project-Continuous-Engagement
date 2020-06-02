@@ -132,6 +132,9 @@ The first pass of ‘completion’ testing revealed 2 errors!
 1.	The background image was incorrectly sized on contact.html – I corrected this
 2.	The headers on case-studies.html where the wrong colour on small media devices – I also corrected this.
 
+Testing matrix https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/c2215cb79202e3ac07ad0cf79355da913a3c965e/testing/Testing.pdf
+
+
 ## Deployment ##
 
 I deployed to Github Pages by the following steps:
