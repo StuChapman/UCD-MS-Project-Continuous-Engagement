@@ -1,4 +1,4 @@
-Continuous Engagement Ltd Website
+# Continuous Engagement Ltd Website
 
 Create a website for Continuous Engagement Ltd – a consultancy that specialises in Continuous Improvement 
     through: Lean, 6 Sigma and Operational Excellence.
@@ -7,15 +7,18 @@ There should be an overview of: the Services provided, the Methods employed, and
 The site will be used to supplement the information that the Director will send to prospective Clients and 
     Recruiters. It is more likely the site will be “pushed” to users than the user will actively seek it out.
 
-UX
+## UX
+
 Websites that I specifically reviewed for inspiration on: style, layout and navigation:
-	www.amazon.co.uk
-	www.facebook.com
-	www.reinvigoration.com 
+	www.amazon.co.uk, 
+	www.facebook.com, 
+	www.reinvigoration.com, 
+    www.sainsburys.co.uk 
 … particularly in the formatting from mobile to desktop devices, menus and text layout.
 
 User Stories have been grouped into 2: Director of Continuous Engagement (site owner) and Clients/Recruiters (user)
-As the Director of Continuous Engagement, I …
+
+### As the Director of Continuous Engagement, I …
 
 1.	… want the user to see a professional “shop-window” for my company.
 2.	… want the user to have all of the regulatory information for the company (Company number, VAT number etc.)
@@ -31,7 +34,7 @@ As the Director of Continuous Engagement, I …
 10.	… want to use this site as a means to link my consultancy work with my programming work – ultimately adding 
     Agile and Web Development to the showcase.
 
-As the Client/Recruiter, I …
+### As the Client/Recruiter, I …
 
 1.	… want to understand what Continuous Engagement do; visually and quickly, without having to navigate 
     through lots of information.
@@ -48,3 +51,68 @@ I produced the following mockups prior to writing any code. I found that tremend
     capability – “Accordion/Collapse” (https://getbootstrap.com/docs/4.1/components/collapse/#accordion-example) 
     as when I was designing the methods.html layout, I felt the best method would be to hide and reveal relevant 
     content on the page (rather than navigate to separate pages)
+
+I designed the site around 5 pages:
+
+**index.html** - to introduce the user to the company and provide navigation to the other areas of the site
+
+**services.html** - to describe the 4 main services that the company provides
+
+**methods.html** - to breifly outline the 3 main methods of working
+
+**case-studies.html** - to give examples of where these methods have worked succesfully
+
+**contact.html** - contact information and a photograph of the Director
+
+## Mockups:
+
+index.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28index%29.pdf
+
+services.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28services%29.pdf
+
+methods.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28methods%29.pdf
+
+case-studies.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28case-studies%29.pdf
+
+contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28contact%29.pdf
+
+## Features
+
+### Existing Features
+
+1.	A Navigation bar, that is standard across all pages. It is made up of 3 sections:
+    
+    a.	A collapsed “burger” style menu that allows the user to access every page on the site from the top left corner of any page, in all media device sizes.
+    
+    b.	A “brand image” that allows the user to hyperlink to the home page from an page, in all media device sizes.
+    
+    c.	A menu that allows the user to navigate to any page from any page and also see which page they are currently on by means of differentiated font color. The menu shrinks to icons only on smaller media devices in landscape orientation and the “contact us” icon only in portrait orientation.
+
+2.	A background image that gives the user a feeling of ‘business’ and ‘commerce’.
+3.	A large font mission statement for each page that succinctly gets across to the user what the company/page does (excluding the “contact us” page which is self-explanatory).
+4.	Supporting, smaller font text to supplement the mission statement.
+5.	3 infographics that repeat across the “index”, “methods (expanded)” and “contact (large size, landscape view only) that summarise the 3 main areas of expertise of the company.
+6.	A footer which shows the user the regulatory information for the company.
+7.	4 “photolinks” on the “index” page to allow quick navigation to services.html
+8.	4 banners on the “services” page that allow the user to navigate, via a Bootstrap “accordion” example, to the 4 different services the company offers, with supporting text. These are block rows on portrait screens and inline columns for landscape.
+9.	3 banners on the “methods” page that allow the user to navigate, via a Bootstrap “accordion” example on small/medium sized media devices, and a Bootstrap “carousel” for large media devices, to the 3 main areas of expertise of the company, with supporting text. These are block rows on portrait screens and inline columns for landscape.
+10.	A Bootstrap “carousel” on the “services” and/or “methods” pages to present the collapsed information in an even more UX friendly way.
+11.	4 Case Studies on the “case-studies” page to showcase examples of the success of the methods to the user. These are block rows in small/medium media devices, and 2 x 2 inline columns on large+ media devices.
+12.	An image of the company director along with contact information (name, job title email, LinkedIn and phone) to give the user options to contact the director. Email, LinkedIn and phone hyperlink to email app, LinkedIn website and phone app respectively.
+
+
+### Features Left to Implement
+
+1.	A “contact us” form that enables the user to submit specific information about business need.
+2.	Interactive learning that brings the methods further to life for the user (multi choice quiz etc.)
+3.  The ability to link from the photolinks or infographics on index.html directly to the expanded section on the services.html and methods.html pages respectively (I believe this will utilise JavaScript).
+
+## Technologies Used
+
+1.	Html - to create the structure and text of each page.s
+2.	css - to style each page centrally and individually.
+3.	javascript (via Bootstrap) - to add functionality to the site, such as “accordion” and “toggle” collapsed (hidden) content.
+4.	https://getbootstrap.com/ plugins - Responsive grid and prebuilt components to enable more responsive design.
+5.	https://fontawesome.com/v4.7.0/icons/ - for icons on contact.html.
+6.	https://fonts.google.com - for the ‘Cairo’ found – used exclusively across the site.
+7.	www.figma.com - to produce the mockups.

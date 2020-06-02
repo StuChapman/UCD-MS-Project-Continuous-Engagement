@@ -71,7 +71,7 @@ nav div a:hover {
 /* ------------------- Text Section Styling */
 
 #textsection, #contactsection 
-    {background-image: url(https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/master/assets/images/grayscale-photo-of-building-3312304.jpg?raw=true);
+    {background-image: url(/assets/images/grayscale-photo-of-building-3312304.jpg?raw=true);
         /* credit to https://www.pexels.com/photo/grayscale-photo-of-building-3312304//*/
     background-color: #999999;
     background-position: center;
