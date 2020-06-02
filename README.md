@@ -116,3 +116,34 @@ contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/
 5.	https://fontawesome.com/v4.7.0/icons/ - for icons on contact.html.
 6.	https://fonts.google.com - for the ‘Cairo’ found – used exclusively across the site.
 7.	www.figma.com - to produce the mockups.
+
+## Testing ##
+My approach to testing was to test each of the features for functionality (operation) and rendering (visuals) against a variety of media devices, in both portrait and landscape orientation, as well as the 4 main browsers.
+I would test ‘as-and-when’ I was building and enhancing features, then, when the site was ready for completion; I created a matrix to complete methodically to ensure all functions operated and rendered correctly.
+
+I also completed some ‘user testing’ my asking my family to look at the site on mobile devices and laptops.
+
+During the ongoing build test, I discovered an issue with the background image not rendering. It appeared fine in Gitpod, but when I first deployed to Github, the image was not visible. I tried a number of options to solve this, and found the only one that would work, was putting the **full** url from the image hosted on Github into the code. This is unsatisfactory for me, as it means the code is static and will not be portable without access to Github. I am still investigating a more satisfactory solution.
+
+During the user testing, I discovered that using the carousel method of revealing hidden content on methods.html was not a great user experience, as the revealed content was off the bottom of the viewable screen. I believe the user would be unaware of this and feel that the link was broken. I initially tried adding a second set of code to allow the revealed content to appear *above* the banners, but this created duplicate ‘id’s in the code.
+After discussion with my mentor, I decided to use the carousel method (which I had seen on the Amazon site and liked). This works much better and the user experience is much cleaner. It also inspired me to add some images to help describe the content to the user.
+
+The first pass of ‘completion’ testing revealed 2 errors!
+1.	The background image was incorrectly sized on contact.html – I corrected this
+2.	The headers on case-studies.html where the wrong colour on small media devices – I also corrected this.
+
+## Deployment ##
+
+I deployed to Github Pages by the following steps:
+1.	From the UCD-MS-Project-Continuous-Engagement repository in Github, click ‘Settings’
+2.	Scroll down to ‘GitHub Pages’
+3.	From the ‘source’ drop-down, select ‘master branch’
+4.	The url was then presented to me as https://stuchapman.github.io/UCD-MS-Project-Continuous-Engagement/
+
+#### To run the code locally; ####
+1.	From the UCD-MS-Project-Continuous-Engagement repository in Github, click ‘Clone or download’
+2.	Copy the URL to your clipboard
+3.	In Gitpod, open the terminal
+4.	Change the directory to that where you wish to place the files
+5.	Type ‘git clone’ then paste the URL
+
