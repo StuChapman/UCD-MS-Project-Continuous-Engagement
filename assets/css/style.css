@@ -326,7 +326,12 @@ nav div a:hover {
 /* ------------------- Contact Section Styling */
 
 #contactsection {
-    height: 55vh;
+    min-height: 55vh;
+}
+
+#contactsectionmask {
+    background-color: rgba(255, 255, 255, .85);
+    min-height: 55vh;
 }
 
 #contactsectionsmall {
@@ -334,11 +339,6 @@ nav div a:hover {
     text-align: center;
     font-size: calc(14px + (32 - 14) * ((100vw - 300px) / 1066));
     font-family: 'Cairo', sans-serif;
-}
-
-#contactsectionmask {
-    background-color: rgba(255, 255, 255, .85);
-    min-height: 66vh;
 }
 
 #contactouter {
@@ -587,6 +587,10 @@ nav div a:hover {
     /* ------------------- Contact Section Styling - large */
 
     #contactsection {
+        height: 66vh;
+    }
+
+    #contactsectionmask {
         height: 66vh;
     }
 
