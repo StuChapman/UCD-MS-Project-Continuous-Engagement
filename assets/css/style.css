@@ -409,6 +409,7 @@ nav div a:hover {
     color: #CC613A  ;
     text-align: center;
     font-weight: bold;
+    margin: 0;
 }
 
 #photolinksection .col-6, #photolinksection .col-xl-3 {
