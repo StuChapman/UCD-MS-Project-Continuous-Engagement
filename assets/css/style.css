@@ -440,7 +440,7 @@ nav div a:hover {
 
 @media screen and (min-width: 1200px) { /*large*/
 
-    /* ------------------- General Styling */
+    /* ------------------- General Styling - large*/
 
     .col-xl-4 {
         max-width: 33.3%;
@@ -450,14 +450,14 @@ nav div a:hover {
         max-width: 25%;
     }
 
-    /* ------------------- Accordian Styling */
+    /* ------------------- Accordian Styling - large */
 
     .accordionouter {
         min-height: 97px;
         background-color: red;
     }
 
-    /* ------------------- Text Section Styling */
+    /* ------------------- Text Section Styling - large */
 
     #textsection, #textsectionmask {
         min-height: 66vh;
@@ -493,7 +493,7 @@ nav div a:hover {
         font-size: calc(21px + (42 - 21) * ((100vw - 300px) / 900));
     }
 
-    /* ------------------- Banner Section Styling */
+    /* ------------------- Banner Section Styling - large */
 
     .banner {
         font-size: 30px;
@@ -532,7 +532,7 @@ nav div a:hover {
         color: rgba(255,255,255,.5)
     }
 
-/* ------------------- Content Section Styling */
+/* ------------------- Content Section Styling - large */
 
     #contentsection .col-xl-6 {
         padding: 2vw 4vw 2vw 4vw;
@@ -576,7 +576,7 @@ nav div a:hover {
         padding: 0;
     }
     
-    /* ------------------- Carousel Styling */
+    /* ------------------- Carousel Styling - large */
 
     .carouselimage {
         height: 15vw;
@@ -584,7 +584,7 @@ nav div a:hover {
         padding-bottom: 2vw;
     }
 
-    /* ------------------- Contact Section Styling */
+    /* ------------------- Contact Section Styling - large */
 
     #contactsection {
         height: 66vh;
@@ -609,7 +609,7 @@ nav div a:hover {
         color: white;
     }
 
-    /* ------------------- Photolink Section Styling */
+    /* ------------------- Photolink Section Styling - large */
 
     .photolinkimage {
         padding-bottom: 2.5vw;

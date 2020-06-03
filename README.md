@@ -1,5 +1,7 @@
 # Continuous Engagement Ltd Website
 
+https://stuchapman.github.io/UCD-MS-Project-Continuous-Engagement/
+
 Create a website for Continuous Engagement Ltd – a consultancy that specialises in Continuous Improvement 
     through: Lean, 6 Sigma and Operational Excellence.
 The branding is to match the profile photograph of the Director.
@@ -14,6 +16,7 @@ Websites that I specifically reviewed for inspiration on: style, layout and navi
 	www.facebook.com, 
 	www.reinvigoration.com, 
     www.sainsburys.co.uk 
+
 … particularly in the formatting from mobile to desktop devices, menus and text layout.
 
 User Stories have been grouped into 2: Director of Continuous Engagement (site owner) and Clients/Recruiters (user)
@@ -100,6 +103,23 @@ contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/
 11.	4 Case Studies on the “case-studies” page to showcase examples of the success of the methods to the user. These are block rows in small/medium media devices, and 2 x 2 inline columns on large+ media devices.
 12.	An image of the company director along with contact information (name, job title email, LinkedIn and phone) to give the user options to contact the director. Email, LinkedIn and phone hyperlink to email app, LinkedIn website and phone app respectively.
 
+### Colour Schemes and Fonts ###
+
+I used this image as the 'brand' for the company and the colour scheme for the site.
+https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/d33885bf6639d8c8dca7a632edbea6ad5e7f8b1d/assets/images/Stu-Chapman-Photo.jpg
+
+The colours I used (by 'eyedropping' the image in PowerPoint to get the hex code) were:
+
+1. #657486 for the navbar
+2. #000000 for small sized text
+3. #101828 for medium sized text and the footer
+4. #CC613A for large text, banners and infographic backgrounds
+5. #ffffff for banner text and infographic line/text
+6. #D9D9D9 and #F0F0F0 for the photolink section (these were 'eyedropped' from the background image)
+
+I used these colours exclusively to keep the 'brand' appearance across all pages.
+
+The font I used exclusively is Cairo from Google fonts. I also used this for the 'brand image'.
 
 ### Features Left to Implement
 
@@ -109,12 +129,12 @@ contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/
 
 ## Technologies Used
 
-1.	Html - to create the structure and text of each page.s
+1.	Html - to create the structure and text of each page.
 2.	css - to style each page centrally and individually.
 3.	javascript (via Bootstrap) - to add functionality to the site, such as “accordion” and “toggle” collapsed (hidden) content.
 4.	https://getbootstrap.com/ plugins - Responsive grid and prebuilt components to enable more responsive design.
 5.	https://fontawesome.com/v4.7.0/icons/ - for icons on contact.html.
-6.	https://fonts.google.com - for the ‘Cairo’ found – used exclusively across the site.
+6.	https://fonts.google.com - for the ‘Cairo’ font – used exclusively across the site.
 7.	www.figma.com - to produce the mockups.
 
 ## Testing ##
@@ -150,3 +170,10 @@ I deployed to Github Pages by the following steps:
 4.	Change the directory to that where you wish to place the files
 5.	Type ‘git clone’ then paste the URL
 
+## Acknowledgements ##
+
+I would like to thank the following people for thier support and input:
+
+1. My mentor, Precious Ijege for his knowledge and clear direction (it was he who made it very clear that a detailed set of mockups were vital - this is knowledge I will keep with me for the rest of my career!)
+2. My partner, Leah Harrison for the moral support and being my 'guinea pig' for live testing.
+3. My friends Scott and Magoo, who I consulted before I started the FSD course, and gave me the confidence to go for it!
