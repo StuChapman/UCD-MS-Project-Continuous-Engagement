@@ -402,9 +402,10 @@ nav div a:hover {
 }
 
 .contactmodaltext {
-    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / 1066));
+    font-size: calc(12px + (22 - 12) * ((100vw - 300px) / 1066));
     font-family: 'Cairo', sans-serif;
     color: #657486;
+    text-align: center;
 }
 
 #contactsection .btn-primary:not(:disabled):not(.disabled):active,
@@ -650,6 +651,11 @@ nav div a:hover {
         margin-bottom: 0;
         font-size: calc(14px + (28 - 14) * ((100vw - 1200px) / 600));
         font-family: 'Cairo', sans-serif;
+    }
+    
+    #contactsection .modal-content {
+        width: 40vw;
+        left: 30vw;
     }
 
     /* ------------------- Photolink Section Styling - large */

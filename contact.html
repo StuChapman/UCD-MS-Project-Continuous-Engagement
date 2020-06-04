@@ -90,6 +90,56 @@
                         Contact: Stuart Chapman, Director
                     </h1>
                 </div>
+                <div class="col-xl-12 mb-xl-3">
+                    <!-- Button trigger modal - under construction until javascript module -->
+                    <button type="button" class="btn btn-primary contactmodal" data-toggle="modal" data-target="#exampleModal">
+                        Got a question? Click here...
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title contactmodaltext" id="exampleModalLabel">Submit your question...</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body contactmodaltext">
+                                    <p>
+                                        <label for="name">Email address</label><br>
+                                        <input type="text" id="name" placeholder="First Last">
+                                    </p>
+                                    <p>
+                                        <label for="emailinput">Email address</label><br>
+                                        <input type="email" id="emailinput" placeholder="name@example.com">
+                                    </p>
+                                    <p> 
+                                        <label for="industry">What business are you in?</label><br>
+                                        <input type="text" id="industry">
+                                    </p>
+                                    <p>
+                                        <label for="servicesselect">Select the area of interest...</label><br>
+                                        <select id="servicesselect">
+                                            <option>Training</option>
+                                            <option>Coaching</option>
+                                            <option>Deployment</option>
+                                            <option>Resourcing</option>
+                                        </select>
+                                    </p>
+                                    <p>
+                                        <label for="question">Type your question here...</label><br>
+                                        <textarea id="question" rows="2"></textarea>
+                                    </p>    
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary contactmodal" data-dismiss="modal">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -112,13 +162,13 @@
     <!--Banner-->
     <div id="bannersection" class="d-none d-xl-block">
         <div class="row" id="bannerouter">
-            <div class="col-xl-4 mb-1 banner align-vertically">
+            <div class="col-xl-4 banner align-vertically">
                 <img class="bannerimage" src="assets/images/lean.jpg" alt="lean principles infographic" >
             </div>
-            <div class="col-xl-4 mb-1 banner align-vertically headingCenter">
+            <div class="col-xl-4 banner align-vertically headingCenter">
                 <img class="bannerimage" src="assets/images/dmaic.jpg" alt="six sigma infographic" >
             </div>
-            <div class="col-xl-4 mb-1 banner align-vertically">
+            <div class="col-xl-4 banner align-vertically">
                 <img class="bannerimage" src="assets/images/pdca.jpg" alt="plan do check act infographic" >
             </div>
         </div>
