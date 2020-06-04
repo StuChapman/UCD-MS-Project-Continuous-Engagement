@@ -402,10 +402,9 @@ nav div a:hover {
 }
 
 .contactmodaltext {
-    font-size: calc(12px + (22 - 12) * ((100vw - 300px) / 1066));
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / 1066));
     font-family: 'Cairo', sans-serif;
-    color: #657486;
-    text-align: center;
+    color: #101828;
 }
 
 #contactsection .btn-primary:not(:disabled):not(.disabled):active,
@@ -417,10 +416,20 @@ nav div a:hover {
     box-shadow: none;
 }
 
+#contactsection input, select, textarea {
+    width: 65vw;
+}
+
+#contactsection label {
+    margin-bottom: 0;
+    margin-left: 2vw;
+}
+
 #contactsection .modal-content {
     width: 75vw;
     top: 5vh;
     left: 12.5vw;
+    background-color: #D9D9D9;
 }
 
 #contactsection .modal-dialog {
@@ -470,7 +479,7 @@ nav div a:hover {
 
 @media screen and (max-width: 567px) {
     #contactsection .modal-dialog {
-    max-width: 500px;
+    max-width: 75vw;
     margin: 0;
     }
 }
@@ -656,6 +665,10 @@ nav div a:hover {
     #contactsection .modal-content {
         width: 40vw;
         left: 30vw;
+    }
+
+    #contactsection input, select, textarea {
+        width: 34vw;
     }
 
     /* ------------------- Photolink Section Styling - large */
