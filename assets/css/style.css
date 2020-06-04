@@ -267,6 +267,13 @@ nav div a:hover {
     left: -20vw;
 }
 
+.methodsmodal {
+    text-align: center;
+    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / 1066));
+    font-family: 'Cairo', sans-serif;
+    background-color: #CC613A;
+}
+
 /* ------------------- Content Section Styling */
 
 #contentsection {
@@ -350,11 +357,11 @@ nav div a:hover {
 
 #contactimage {
     width: 60vw;
-    margin: 15vh 20vw 0 20vw;
+    margin: 10vh 20vw 5vh 20vw;
 }
 
 .contacttext {
-    margin: 0 10vw 15vh 10vw;
+    margin: 0 10vw 5vh 10vw;
     padding-top: 1vw;
     text-align: center;
     font-size: calc(14px + (24 - 14) * ((100vw - 300px) / 1066));
@@ -384,6 +391,39 @@ nav div a:hover {
 
 #contentsection .col-xl-6 {
     padding: 2vw 4vw 6vw 4vw;
+}
+
+.contactmodal {
+    margin-bottom: 5vw;
+    text-align: center;
+    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / 1066));
+    font-family: 'Cairo', sans-serif;
+    background-color: #657486;
+}
+
+.contactmodaltext {
+    font-size: calc(14px + (32 - 14) * ((100vw - 300px) / 1066));
+    font-family: 'Cairo', sans-serif;
+    color: #657486;
+}
+
+#contactsection .btn-primary:not(:disabled):not(.disabled):active,
+#contactsection .btn-primary:hover,
+#contactsection .btn-primary:focus {
+    color: rgba(255, 255, 255, .85);
+    background-color: #657486;
+    border: none;
+    box-shadow: none;
+}
+
+#contactsection .modal-content {
+    width: 75vw;
+    top: 5vh;
+    left: 12.5vw;
+}
+
+#contactsection .modal-dialog {
+    margin: 0;
 }
 
 /* ------------------- Photolink Section Styling */
@@ -428,14 +468,9 @@ nav div a:hover {
 /* ------------------- Media Screen responsiveness */
 
 @media screen and (max-width: 567px) {
-
-    .menuicon {
-        display: none;
-    }
-
-    .mailicon {
-        font-size: 28px;
-        padding-right: 3vw;
+    #contactsection .modal-dialog {
+    max-width: 500px;
+    margin: 0;
     }
 }
 
@@ -449,13 +484,6 @@ nav div a:hover {
     
     .col-xl-3 {
         max-width: 25%;
-    }
-
-    /* ------------------- Accordian Styling - large */
-
-    .accordionouter {
-        min-height: 97px;
-        background-color: red;
     }
 
     /* ------------------- Text Section Styling - large */
@@ -588,15 +616,15 @@ nav div a:hover {
     /* ------------------- Contact Section Styling - large */
 
     #contactsection {
-        height: 66vh;
+        min-height: 66vh;
     }
 
     #contactsectionmask {
-        height: 66vh;
+        min-height: 66vh;
     }
 
     #contactouter {
-        padding: 15vh 20vw 15vh 20vw;
+        padding: 15vh 20vw 5vh 20vw;
     }
 
     #contactimage {
@@ -612,6 +640,16 @@ nav div a:hover {
     .contactbanner a, .contactbanner p, .contactbanner i {
         font-size: calc(14px + (28 - 14) * ((100vw - 1200px) / 600));
         color: white;
+    }
+
+    #contactsection .contenttextsmall {
+        padding: 1vw 8vw 1vw;
+    }
+    
+    .contactmodal {
+        margin-bottom: 0;
+        font-size: calc(14px + (28 - 14) * ((100vw - 1200px) / 600));
+        font-family: 'Cairo', sans-serif;
     }
 
     /* ------------------- Photolink Section Styling - large */
