@@ -30,7 +30,7 @@ nav ul {
     padding-left: 10vw;
     list-style-type:none;
     font-weight: 400;
-    font-size: 18px;
+    font-size: calc(12px + (32 - 12) * ((100vw - 300px) / 3000));
     margin-bottom: 0;
     min-width: 38rem;
 }
@@ -401,6 +401,10 @@ nav div a:hover {
     background-color: #657486;
 }
 
+.modal-footer input {
+    max-width: 80px;
+}
+
 .contactmodaltext {
     font-size: calc(14px + (20 - 14) * ((100vw - 300px) / 1066));
     font-family: 'Cairo', sans-serif;
@@ -672,6 +676,10 @@ nav div a:hover {
         font-family: 'Cairo', sans-serif;
     }
     
+    .modal-footer input {
+        max-width: 120px;
+    }
+
     #contactsection .modal-content {
         width: 40vw;
         left: 30vw;

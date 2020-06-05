@@ -17,7 +17,7 @@
 <body>
     <!--Bootstrap navbar-->
     <nav class="navbar sticky-top">
-        <div class="mr-auto">
+        <div class="mr-auto ml-3">
             <a href="index.html">
                 <img id="brandimage" src="assets/images/brand.jpg" alt="continuous engagement brand image" >
             </a>
@@ -99,44 +99,46 @@
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title contactmodaltext" id="exampleModalLabel">Submit your question...</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                            <form>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title contactmodaltext" id="exampleModalLabel">Submit your question...</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body contactmodaltext">
+                                        <p>
+                                            <label class="float-left" for="name">Name * </label><br>
+                                            <input type="text" id="name" placeholder="Firstname Lastname" required>
+                                        </p>
+                                        <p>
+                                            <label class="float-left" for="emailinput">Email address *</label><br>
+                                            <input type="email" id="emailinput" placeholder="name@example.com" required>
+                                        </p>
+                                        <p> 
+                                            <label class="float-left" for="industry">What business are you in?</label><br>
+                                            <input type="text" id="industry" placeholder="e.g. Financial Services">
+                                        </p>
+                                        <p>
+                                            <label class="float-left" for="servicesselect">Select the area of interest...</label><br>
+                                            <select id="servicesselect">
+                                                <option>Training</option>
+                                                <option>Coaching</option>
+                                                <option>Deployment</option>
+                                                <option>Resourcing</option>
+                                            </select>
+                                        </p>
+                                        <p>
+                                            <label class="float-left" for="question">Type your question here... *</label><br>
+                                            <textarea id="question" rows="2" required></textarea>
+                                        </p>    
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="submit" class="btn btn-primary contactmodal">
+                                    </div>
                                 </div>
-                                <div class="modal-body contactmodaltext">
-                                    <p>
-                                        <label class="float-left" for="name">Name</label><br>
-                                        <input type="text" id="name" placeholder="FirstName LastName">
-                                    </p>
-                                    <p>
-                                        <label class="float-left" for="emailinput">Email address</label><br>
-                                        <input type="email" id="emailinput" placeholder="name@example.com">
-                                    </p>
-                                    <p> 
-                                        <label class="float-left" for="industry">What business are you in?</label><br>
-                                        <input type="text" id="industry">
-                                    </p>
-                                    <p>
-                                        <label class="float-left" for="servicesselect">Select the area of interest...</label><br>
-                                        <select id="servicesselect">
-                                            <option>Training</option>
-                                            <option>Coaching</option>
-                                            <option>Deployment</option>
-                                            <option>Resourcing</option>
-                                        </select>
-                                    </p>
-                                    <p>
-                                        <label class="float-left" for="question">Type your question here...</label><br>
-                                        <textarea id="question" rows="2"></textarea>
-                                    </p>    
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="submit" class="btn btn-primary contactmodal" data-dismiss="modal">Submit</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
