@@ -123,7 +123,7 @@ The font I used exclusively is Cairo from Google fonts. I also used this for the
 
 ### Features Left to Implement
 
-1.	A “contact us” form that enables the user to submit specific information about business need.
+1.	Completing the “contact us” form functionality to enable the user to submit specific information about business need.
 2.	Interactive learning that brings the methods further to life for the user (multi choice quiz etc.)
 3.  The ability to link from the photolinks or infographics on index.html directly to the expanded section on the services.html and methods.html pages respectively (I believe this will utilise JavaScript).
 
