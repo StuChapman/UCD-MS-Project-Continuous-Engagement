@@ -1,6 +1,6 @@
 # Continuous Engagement Ltd Website
 
-https://stuchapman.github.io/UCD-MS-Project-Continuous-Engagement/
+ Link to the wesite [here](https://stuchapman.github.io/UCD-MS-Project-Continuous-Engagement/)
 
 Create a website for Continuous Engagement Ltd – a consultancy that specialises in Continuous Improvement 
     through: Lean, 6 Sigma and Operational Excellence.
@@ -12,14 +12,16 @@ The site will be used to supplement the information that the Director will send 
 ## UX
 
 Websites that I specifically reviewed for inspiration on: style, layout and navigation:
-	www.amazon.co.uk, 
-	www.facebook.com, 
-	www.reinvigoration.com, 
-    www.sainsburys.co.uk 
+	[amazon](http://www.amazon.co.uk), 
+	[facebook](http://www.facebook.com), 
+	[reinvigoration](http://www.reinvigoration.com), 
+    [sainsburys](http://www.sainsburys.co.uk) 
 
 … particularly in the formatting from mobile to desktop devices, menus and text layout.
 
-User Stories have been grouped into 2: Director of Continuous Engagement (site owner) and Clients/Recruiters (user)
+### User Stories 
+
+have been grouped into 2: Director of Continuous Engagement (site owner) and Clients/Recruiters (user)
 
 ### As the Director of Continuous Engagement, I …
 
@@ -49,12 +51,6 @@ User Stories have been grouped into 2: Director of Continuous Engagement (site o
 7.	… want to know that Continuous Engagement is a professional company.
 8.	… want to be assured that Continuous Engagement can benefit my business, and want to contract with them.
 
-I produced the following mockups prior to writing any code. I found that tremendously useful as I made a lot 
-    of design and functionality decisions up front. I also researched a particular Bootstrap 
-    capability – “Accordion/Collapse” (https://getbootstrap.com/docs/4.1/components/collapse/#accordion-example) 
-    as when I was designing the methods.html layout, I felt the best method would be to hide and reveal relevant 
-    content on the page (rather than navigate to separate pages)
-
 I designed the site around 5 pages:
 
 **index.html** - to introduce the user to the company and provide navigation to the other areas of the site
@@ -67,17 +63,54 @@ I designed the site around 5 pages:
 
 **contact.html** - contact information and a photograph of the Director
 
-## Mockups:
+### Mockups:
 
-index.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-index.pdf
+I produced the following mockups prior to writing any code. I found that tremendously useful as I made a lot 
+    of design and functionality decisions up front. I also researched a particular Bootstrap 
+    capability – [Accordion/Collapse](https://getbootstrap.com/docs/4.1/components/collapse/#accordion-example) 
+    as when I was designing the methods.html layout, I felt the best method would be to hide and reveal relevant 
+    content on the page (rather than navigate to separate pages)
 
-services.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-services.pdf
+[index.html](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-index.pdf)
 
-methods.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-methods.pdf
+[services.html](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-services.pdf)
 
-case-studies.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-case-studies.pdf
+[methods.html](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-methods.pdf)
 
-contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-contact.pdf
+[case-studies.html](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-case-studies.pdf)
+
+[contact.html](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-contact.pdf)
+
+
+### Colour Schemes and Fonts
+
+I used this [image](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/d33885bf6639d8c8dca7a632edbea6ad5e7f8b1d/assets/images/Stu-Chapman-Photo.jpg) as the 'brand' for the company and the colour scheme for the site.
+
+The colours I used (by 'eyedropping' the image in PowerPoint to get the hex code) were:
+
+1. #657486 for the navbar
+2. #000000 for small sized text
+3. #101828 for medium sized text and the footer
+4. #CC613A for large text, banners and infographic backgrounds
+5. #ffffff for banner text and infographic line/text
+6. #D9D9D9 and #F0F0F0 for the photolink section (these were 'eyedropped' from the background image)
+
+I used these colours exclusively to keep the 'brand' appearance across all pages.
+
+The font I used exclusively is Cairo from Google fonts. I also used this for the 'brand image'.
+
+### Approach
+
+The approach I took for designing the site, was to start with the small media device, portrait view, design that, then make any adaptations
+for a tablet, portrait view, and finally any changes for a large size, landscape view. I did this in the mockups first, then as I built the app.
+I constructed the code in the mobile-first, portrait view, then added media queries purely for large size, landscape view.
+I didn't want to have a multuitude of media queries for different sizes, I preferred to have a completely responsive approach.
+For that, I set font sizes to be responsive, utilising some code from [css-tricks](https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/) 
+and [made by Mike](https://www.madebymike.com.au/writing/fluid-type-calc-examples/)
+
+font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+
+This code, along with using vw for font sizes and certain features, such as banners and images, allowed the site to be almost fully responsive across different portrait view sizes.
 
 ## Features
 
@@ -103,24 +136,6 @@ contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/
 11.	4 Case Studies on the “case-studies” page to showcase examples of the success of the methods to the user. These are block rows in small/medium media devices, and 2 x 2 inline columns on large+ media devices.
 12.	An image of the company director along with contact information (name, job title email, LinkedIn and phone) to give the user options to contact the director. Email, LinkedIn and phone hyperlink to email app, LinkedIn website and phone app respectively.
 
-### Colour Schemes and Fonts
-
-I used this image as the 'brand' for the company and the colour scheme for the site.
-https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/d33885bf6639d8c8dca7a632edbea6ad5e7f8b1d/assets/images/Stu-Chapman-Photo.jpg
-
-The colours I used (by 'eyedropping' the image in PowerPoint to get the hex code) were:
-
-1. #657486 for the navbar
-2. #000000 for small sized text
-3. #101828 for medium sized text and the footer
-4. #CC613A for large text, banners and infographic backgrounds
-5. #ffffff for banner text and infographic line/text
-6. #D9D9D9 and #F0F0F0 for the photolink section (these were 'eyedropped' from the background image)
-
-I used these colours exclusively to keep the 'brand' appearance across all pages.
-
-The font I used exclusively is Cairo from Google fonts. I also used this for the 'brand image'.
-
 ### Features Left to Implement
 
 1.	Completing the “contact us” form functionality to enable the user to submit specific information about business need.
@@ -129,25 +144,20 @@ The font I used exclusively is Cairo from Google fonts. I also used this for the
 
 ## Technologies Used
 
-1.	Html - to create the structure and text of each page.
-2.	css - to style each page centrally and individually.
-3.	javascript (via Bootstrap) - to add functionality to the site, such as “accordion” and “toggle” collapsed (hidden) content.
-4.	https://getbootstrap.com/ plugins - Responsive grid and prebuilt components to enable more responsive design.
-5.	https://fontawesome.com/v4.7.0/icons/ - for icons on contact.html.
-6.	https://fonts.google.com - for the ‘Cairo’ font – used exclusively across the site.
-7.	www.figma.com - to produce the mockups.
+1.	[html](https://en.wikipedia.org/wiki/HTML) - to create the structure and text of each page.
+2.	[css](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - to style each page centrally and individually.
+3.	[Bootstrap](https://getbootstrap.com/) plugins - Responsive grid and prebuilt components to enable more responsive design; particularly “accordion” and “toggle” collapsed (hidden) content.
+4.	[Font Awesome](https://fontawesome.com/v4.7.0/icons/) - for icons on contact.html.
+5.	[Google Fonts](https://fonts.google.com/?query=cairo) - for the ‘Cairo’ font – used exclusively across the site.
+6.	[Figma](http://www.figma.com) - to produce the mockups.
 
-## Approach
+## Testing
+My approach to testing was to test each of the features for functionality (operation) and rendering (visuals) against a variety of media devices, in both portrait and landscape orientation, as well as the 4 main browsers.
+I would test ‘as-and-when’ I was building and enhancing features, then, when the site was nearing completion; I created a matrix to complete methodically to ensure all functions operated and rendered correctly.
 
-The approach I took for designing the site, was to start with the small media device, portrait view, design that, then make any adaptations
-for a tablet, portrait view, and finally any changes for a large size, landscape view. I did this in the mockups first, then as I built the app.
-I constructed the code in the mobile-first, portrait view, then added media queries purely for large size, landscape view.
-I didn't want to have a multuitude of media queries for different sizes, I preferred to have a completely responsive approach.
-For that, I set font sizes to be responsive, utilising some code from www.css-tricks.com and www.madebymike.com.au
+I also completed some ‘user testing’ my asking my family to look at the site on mobile devices and laptops.
 
-font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
-
-This code, along with using vw for font sizes and certain features, such as banners and images, allowed the site to be almost fully responsive across different portrait view sizes.
+During the ongoing build test, I discovered an issue with the background image not rendering. It appeared fine in Gitpod, but when I first deployed to Github, the image was not visible. I tried a number of options to solve this, and found the only one that would work, was putting the **full** url from the image hosted on Github into the code. This is unsatisfactory for me, as it means the code is static and will not be portable without access to Github. I am still investigating a more satisfactory solution.
 
 ### Challenges
 
@@ -162,28 +172,41 @@ There were a few issues that needed research before I could solve them:
     A trick that I used to help with this was to set a minimum vh for the background image and text section. this kept things spaced out nicely, and responded to different screen heights.
 
 3. When I created the large, orange "banners" that link to further content on services.html and methods.html, I wanted the text centred both horizontally and vertically.
-    Researching found that it has often been an ongoing issue with vertical alignment. I found a little trick at www.webdevblog.com to set: **display: flex;**
+    Researching found that it has often been an ongoing issue with vertical alignment. I found a little trick at [webdevblog](https://webdevblog.com/css-vertical-align) to set: **display: flex;**
     and **align-items: center;** which solved the problem for me.
 
-## Solutions to User Stories
+### Bugs and Errors
 
-Screenshots are in the folder; https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/screenshots
+There were many situations through the course of coding this project - mostly sizing and layout issues due to using Bootstrap plugins. These were usually padding or marging related and were overcome by using Safari Developer Tools too identify 
+which part of the css styling needed to be adjusted to suit my own application.
 
+for example 
 
-## Testing
-My approach to testing was to test each of the features for functionality (operation) and rendering (visuals) against a variety of media devices, in both portrait and landscape orientation, as well as the 4 main browsers.
-I would test ‘as-and-when’ I was building and enhancing features, then, when the site was nearing completion; I created a matrix to complete methodically to ensure all functions operated and rendered correctly.
+    .col-xl-4 {
+        max-width: 33.3%;
+    }
+    
+    .col-xl-3 {
+        max-width: 25%;
+    }
 
-I also completed some ‘user testing’ my asking my family to look at the site on mobile devices and laptops.
+To ensure that there was no unwanted wraparound of cards that I wished to fit the Bootstrap grid system.
 
-During the ongoing build test, I discovered an issue with the background image not rendering. It appeared fine in Gitpod, but when I first deployed to Github, the image was not visible. I tried a number of options to solve this, and found the only one that would work, was putting the **full** url from the image hosted on Github into the code. This is unsatisfactory for me, as it means the code is static and will not be portable without access to Github. I am still investigating a more satisfactory solution.
+I created more formal [Testing Matrices](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/testing) 
+to ensure that I could periodically test the features and rendering in a systematic way. This was fundamental as there are often small errors like types or missing margins
+that aren't immediately obvious 
 
-The first pass of ‘completion’ testing revealed 2 errors!
-1.	The background image was incorrectly sized on contact.html – I corrected this
-2.	The headers on case-studies.html were the wrong colour on small media devices – I also corrected this.
+The first pass of ‘completion’ testing revealed some particular errors:
+1.	The background image was incorrectly sized on contact.html – I corrected this by adjusting the max-height
+2.  The headers on case-studies.html were the wrong colour on small media devices – I also corrected this.
+3.  The menu links are supposed to change to a slightly darker colour to indicate that the user is currently visiting that particular page
+    - this functionality has broken and all pages were showing "home" as the active page. I realised that I had made some adjustments to the navbar in index.html, and copied the code
+    into each of the other pages without adjusting the active pages.
+4.  On checking the infographics; I realised that I had not creted hyperlinks to the methods.html page form the contact.html page. I added the hyperlinks.
 
-Testing matrices https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/testing
+### Solutions to User Stories
 
+[Screenshots](https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/screenshots) that address the different User Stories.
 
 ## Deployment
 
@@ -200,10 +223,30 @@ I deployed to Github Pages by the following steps:
 4.	Change the directory to that where you wish to place the files
 5.	Type ‘git clone’ then paste the URL
 
-## Acknowledgements
+## Credits
+
+
+
+### Content
+
+1.	The formula (calc(10px + (48 - 10) * ((100vw - 300px) / (1800 - 300)))) for responsive font sizing is 
+    from [css-tricks](https://www.css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/) and 
+    [made by Mike](www.madebymike.com.au/writing/fluid-type-calc-examples/)
+2.	The method for aligning text vertically is from [webdevblog](www.webdevblog.com/css-vertical-align/) 
+
+### Media
+
+1.	All images were taken from www.pexels.com 
+    1. [neon-signage](https://www.pexels.com/photo/neon-signage-2681319/)
+    2. [group-of-people-watching-on-laptop](https://www.pexels.com/photo/group-of-people-watching-on-laptop-1595385/)
+    3. [books-business-computer-connection](https://www.pexels.com/photo/books-business-computer-connection-459654/)
+    4. [working-in-a-group](https://www.pexels.com/photo/working-in-a-group-6224/)
+2.	The infographics and ‘brand image’ were designed and created by me
+
+### Acknowledgements
 
 I would like to thank the following people for thier support and input:
 
-1. My mentor, Precious Ijege for his knowledge and clear direction (it was he who made it very clear that a detailed set of mockups were vital - this is knowledge I will keep with me for the rest of my career!)
-2. My partner, Leah Harrison for the moral support and being my 'guinea pig' for live testing.
-3. My friends Scott and Magoo, who I consulted before I started the FSD course, and gave me the confidence to go for it!
+1. My mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his knowledge and clear direction (it was he who made it very clear that a detailed set of mockups were vital - this is knowledge I will keep with me for the rest of my career!)
+2. My partner, [Leah Harrison](https://www.facebook.com/leah.harrison.73744?eid=ARAmY9N1IiEptfP63TCAVnMZopPWxDv1tJL8BkuU9svBwDI3Eswr2C0RcoW-zx5We_ulMsujpIqL0-9B&timeline_context_item_type=intro_card_relationship&timeline_context_item_source=745641114) for the moral support and being my 'guinea pig' for live testing.
+3. My friends [Scott](https://www.facebook.com/scott.mckellar.399) and [Magoo](https://www.facebook.com/carlos.fandango.56232), who I consulted before I started the FSD course, and gave me the confidence to go for it!
