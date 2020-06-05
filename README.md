@@ -69,15 +69,15 @@ I designed the site around 5 pages:
 
 ## Mockups:
 
-index.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28index%29.pdf
+index.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-index.pdf
 
-services.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28services%29.pdf
+services.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-services.pdf
 
-methods.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28methods%29.pdf
+methods.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-methods.pdf
 
-case-studies.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28case-studies%29.pdf
+case-studies.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-case-studies.pdf
 
-contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/0560e945a81c38de9cf1bc88bda158409fd3157b/assets/mockups/User_Centric_Development_Milestone_Project%20%28contact%29.pdf
+contact.html https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/mockups/User_Centric_Development_Milestone_Project-contact.pdf
 
 ## Features
 
@@ -167,7 +167,7 @@ There were a few issues that needed research before I could solve them:
 
 ## Solutions to User Stories
 
-Screenshots are in the folder; https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/80746587f1f24496f78a71d2e58813aac739e984/screenshots
+Screenshots are in the folder; https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/screenshots
 
 
 ## Testing
@@ -182,7 +182,7 @@ The first pass of ‘completion’ testing revealed 2 errors!
 1.	The background image was incorrectly sized on contact.html – I corrected this
 2.	The headers on case-studies.html were the wrong colour on small media devices – I also corrected this.
 
-Testing matrices https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/c2215cb79202e3ac07ad0cf79355da913a3c965e/testing/ 
+Testing matrices https://github.com/StuChapman/UCD-MS-Project-Continuous-Engagement/blob/195ffade32fdce65d439bf33c1f11352de30da86/testing
 
 
 ## Deployment
