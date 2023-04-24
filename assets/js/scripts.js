@@ -3,7 +3,7 @@
 //Function: use emailjs account to email a question from the help? button on the header //
 function sendEmail() {
     //Validate user entry 
-    if (!(/^[a-z A-Z]+$/.test(this.nameinput.value)) || this.nameinput.value == "") {
+    if (!(/^[a-z A-Z'-]+$/.test(this.nameinput.value)) || this.nameinput.value == "") {
         alert('Please enter your name, with no special characters or numbers.');
         this.nameinput.focus();
         return;
