@@ -27,7 +27,7 @@ function sendEmail() {
     emailjs.init("user_37585cYmkMNZRiOobd27i");
 
     var template_params = {
-    "from_name": this.name.value,
+    "from_name": this.nameinput.value,
     "from_email": this.emailinput.value,
     "question": this.industry.value + ": " + this.servicesselect.value + ": " + this.question.value,
     };
