@@ -3,18 +3,24 @@
 //Function: use emailjs account to email a question from the help? button on the header //
 function sendEmail() {
     //Validate user entry 
-    if (!/^[a-zA-Z]*$/g.test(this.name.value) || this.name.value == "") {
+    if (!(/^[a-z A-Z]+$/.test(this.nameinput.value)) || this.nameinput.value == "") {
         alert('Please enter your name, with no special characters or numbers.');
-        this.name.focus();
+        this.nameinput.focus();
         return;
     }
     if (!(/^\S+@\S+\.\S+$/.test(this.emailinput.value))) {
         alert('Please enter a valid email address.');
         this.emailinput.focus();
         return;
+    } 
+    if (!(/^[a-z A-Z]+$/.test(this.industry.value))) {
+        alert('Please enter your industry, with no special characters or numbers.');
+        this.industry.focus();
+        return;
     }
-    if (this.question.value.length < 10) {
-        alert('Please enter a question of at least 10 characters.');
+    if (!(/^[a-z A-Z]+$/.test(this.question.value)) ||this.question.value.length < 10) {
+        alert('Please enter a question of at least 10 characters, and no special characters .');
+        this.question.focus();
         return false;
     }
     
