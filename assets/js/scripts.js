@@ -18,7 +18,7 @@ function sendEmail() {
         this.industry.focus();
         return;
     }
-    if (!(/^[a-z A-Z]+$/.test(this.question.value)) ||this.question.value.length < 10) {
+    if (!(/^[a-z A-Z?:,.-]+$/.test(this.question.value)) ||this.question.value.length < 10) {
         alert('Please enter a question of at least 10 characters, and no special characters .');
         this.question.focus();
         return false;
