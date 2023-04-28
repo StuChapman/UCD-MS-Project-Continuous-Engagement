@@ -37,6 +37,6 @@ function sendEmail() {
 
     emailjs.send(service_id, template_id, template_params);
     
-    alert('Email sent successfully.');
+    alert('Message sent successfully.');
 
 }
